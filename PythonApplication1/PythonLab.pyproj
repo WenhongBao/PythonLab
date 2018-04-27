@@ -23,6 +23,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="GuessNumber.py" />
+    <Compile Include="LoopLab.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YourBMI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ListLab.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
