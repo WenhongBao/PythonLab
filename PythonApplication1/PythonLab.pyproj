@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GetGrade.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="GuessNumber.py" />
     <Compile Include="LoopLab.py">
       <SubType>Code</SubType>
