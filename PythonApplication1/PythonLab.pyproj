@@ -29,6 +29,9 @@
     <Compile Include="LoopLab.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ClassLab.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="YourBMI.py">
       <SubType>Code</SubType>
     </Compile>
