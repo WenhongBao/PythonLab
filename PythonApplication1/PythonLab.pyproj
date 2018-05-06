@@ -35,6 +35,12 @@
     <Compile Include="ClassLab.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="functionLab.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="use_enum.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="YourBMI.py">
       <SubType>Code</SubType>
     </Compile>
