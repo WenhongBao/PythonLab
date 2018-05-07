@@ -24,3 +24,14 @@ def quadratic(a,b,c):
 
 print(quadratic(2,3,1))
 print(quadratic(1,3,-4))
+
+print('Another lab start here..........')
+
+L = [m + '=>' + n for m in "ABC" for n in "ABC" if m != n]
+print(L)
+
+print('Another lab start here..........')
+
+L1 = ['Hello','World',18,'Apple']
+L2 = [s.lower() for s in L1 if isinstance(s,str)]
+print(L2)
