@@ -44,6 +44,9 @@
     <Compile Include="map_reduceLab.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="read_fileLab.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="use_enum.py">
       <SubType>Code</SubType>
     </Compile>
