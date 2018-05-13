@@ -25,6 +25,9 @@
     <Compile Include="%40propertyLab.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="datetimeLab.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="decoratorLab.py">
       <SubType>Code</SubType>
     </Compile>
@@ -32,6 +35,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GuessNumber.py" />
+    <Compile Include="hashlibLab.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LoopLab.py">
       <SubType>Code</SubType>
     </Compile>
@@ -42,6 +48,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="map_reduceLab.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="osLab.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="read_fileLab.py">
