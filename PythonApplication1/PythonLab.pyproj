@@ -5,7 +5,7 @@
     <ProjectGuid>8284abc8-cc9a-4ffe-a970-f3bb556c1c23</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>GuessNumber.py</StartupFile>
+    <StartupFile>Work\GuessNumber.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,49 +22,63 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="%40propertyLab.py">
+    <Compile Include="Lab\%40propertyLab.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="datetimeLab.py">
+    <Compile Include="Lab\datetimeLab.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="decoratorLab.py">
+    <Compile Include="Lab\decoratorLab.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GetGrade.py">
+    <Compile Include="Test\TCPServiceTest.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GuessNumber.py" />
-    <Compile Include="hashlibLab.py">
+    <Compile Include="Test\TCPTest.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LoopLab.py">
+    <Compile Include="Work\GetGrade.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ClassLab.py">
+    <Compile Include="Work\GuessNumber.py" />
+    <Compile Include="Lab\hashlibLab.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="functionLab.py">
+    <Compile Include="Lab\LoopLab.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="map_reduceLab.py">
+    <Compile Include="Lab\ClassLab.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="osLab.py">
+    <Compile Include="Lab\functionLab.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="read_fileLab.py">
+    <Compile Include="Lab\map_reduceLab.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="use_enum.py">
+    <Compile Include="Lab\osLab.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="YourBMI.py">
+    <Compile Include="Lab\read_fileLab.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ListLab.py">
+    <Compile Include="Test\tkinterTest.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Work\use_enum.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\YourBMI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab\ListLab.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lab\" />
+    <Folder Include="Work\" />
+    <Folder Include="Test\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
