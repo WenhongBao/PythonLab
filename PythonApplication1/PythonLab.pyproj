@@ -31,6 +31,12 @@
     <Compile Include="Lab\decoratorLab.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Test\MySQLTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Test\SMTPTest.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Test\TCPServiceTest.py">
       <SubType>Code</SubType>
     </Compile>
@@ -79,6 +85,9 @@
     <Folder Include="Lab\" />
     <Folder Include="Work\" />
     <Folder Include="Test\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Test\smtp_server.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
