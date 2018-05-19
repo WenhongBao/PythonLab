@@ -31,6 +31,21 @@
     <Compile Include="Lab\decoratorLab.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="request\Example_BaiduSearch.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="request\Example_amazon.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="request\Example_getPicture.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="request\Example_Jindong.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="request\get%28%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Test\MySQLTest.py">
       <SubType>Code</SubType>
     </Compile>
@@ -83,10 +98,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Lab\" />
+    <Folder Include="request\" />
     <Folder Include="Work\" />
     <Folder Include="Test\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="request\Note.txt" />
+    <Content Include="request\Response对象.txt" />
     <Content Include="Test\smtp_server.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

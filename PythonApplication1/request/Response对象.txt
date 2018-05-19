@@ -1,0 +1,7 @@
+r为一个response对象
+
+r.status_code       HTTP请求的返回状态， 200为成功， 404为失败
+r.text              url对应的页面内容
+r.encoding          从header中返回的编码方式
+r.apparent_encoding 从内容中返回的编码方式（备选编码方式）
+r.content           HTTP响应内容的二进制形式（例如图片）

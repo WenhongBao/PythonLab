@@ -1,0 +1,10 @@
+无法访问处理：
+r.request.headers 获取头部信息
+发现user-agent是python-requests/..
+所以替换 以欺骗网页
+kv={'user-agent':'Mozilla/5.0'} Mozilla/5.0是标准浏览器
+r=requests.get(url,headers=kv) 替换
+
+百度及其360关键词提交：
+http://www.baidu.com/s?wd=keyword keyword可替换
+http://www.so.com/s?q=keyword keyword可替换
