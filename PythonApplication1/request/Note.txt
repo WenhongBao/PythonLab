@@ -8,3 +8,10 @@ r=requests.get(url,headers=kv) 替换
 百度及其360关键词提交：
 http://www.baidu.com/s?wd=keyword keyword可替换
 http://www.so.com/s?q=keyword keyword可替换
+
+输出中文时无法对其问题：
+在Example_get_ranking.py中
+"{:^10}\t{:^6}\t{:^10}".format（...）
+改为"{0:^10}\t{1:{3}^10}\t{2:^10}".format(...,chr(12288)) 以用中文字符填充
+开头0，1，2代表对应引用format中变量的位置
+^表示居中，10表示字符串， {3}表示引用format中第三位

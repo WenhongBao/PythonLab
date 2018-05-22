@@ -52,6 +52,12 @@
     <Compile Include="request\Week2\beautiful_soup_test.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="request\Week2\Example_get_ranking.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="request\Week2\get_link.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Test\MySQLTest.py">
       <SubType>Code</SubType>
     </Compile>
