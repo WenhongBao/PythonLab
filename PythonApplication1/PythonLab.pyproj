@@ -49,6 +49,9 @@
     <Compile Include="request\Week1\get%28%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="request\Week1\get_code_from_Git.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="request\Week2\beautiful_soup_test.py">
       <SubType>Code</SubType>
     </Compile>
@@ -56,6 +59,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="request\Week2\get_link.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="request\Week3\re_test.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Test\MySQLTest.py">
@@ -111,6 +117,7 @@
   <ItemGroup>
     <Folder Include="Lab\" />
     <Folder Include="request\" />
+    <Folder Include="request\Week3\" />
     <Folder Include="request\Week2\" />
     <Folder Include="request\Week1\" />
     <Folder Include="Work\" />
