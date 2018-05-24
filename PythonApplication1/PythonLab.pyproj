@@ -61,6 +61,12 @@
     <Compile Include="request\Week2\get_link.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="request\Week3\Example_stock.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="request\Week3\Example_Taobao.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="request\Week3\re_test.py">
       <SubType>Code</SubType>
     </Compile>
