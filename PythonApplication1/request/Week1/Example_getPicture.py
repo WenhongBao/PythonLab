@@ -1,6 +1,6 @@
 import requests
-path="C:/Users/Administrator/Desktop/Python/abc.jpg"
-url="http://singerimg.kugou.com/uploadpic/softhead/400/20171222/20171222165824304.jpg"
+path="C:/Users/Administrator/Desktop/Python/abc.mp3"
+url="https://www.xiami.com/song/1796378666"
 
 r=requests.get(url)
 
