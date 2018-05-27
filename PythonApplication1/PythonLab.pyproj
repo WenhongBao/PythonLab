@@ -34,6 +34,12 @@
     <Compile Include="Pygame\ball_game.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Pygame\ball_game_FULLSCREEN.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Pygame\ball_game_RESIZABLE.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Pygame\hello_world.py">
       <SubType>Code</SubType>
     </Compile>
