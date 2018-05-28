@@ -37,10 +37,19 @@
     <Compile Include="Pygame\ball_game_FULLSCREEN.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Pygame\ball_game_mouse.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Pygame\ball_game_RESIZABLE.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Pygame\hello_world.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Pygame\keyboard_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Pygame\mouse_test.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="request\Week1\Example_BaiduSearch.py">
